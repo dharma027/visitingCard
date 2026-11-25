@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{font-family:'DM Sans',sans-serif;color:#f7faff;background:#020b1c;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;scroll-behavior:smooth;--navy:#020b1c;--panel:#071a35;--blue:#006bff;--cyan:#00d4ff;--muted:#b8c7da}
+html{scroll-padding-top:92px}body{margin:0;min-width:320px;min-height:100vh;background:#020b1c;color:#f7faff}button,a,input,textarea{font:inherit}a{transition:color .2s ease}button{transition:all .2s ease}::selection{background:#006bff;color:#fff}#root{min-height:100vh}.font-display,h1,h2,h3,h4{font-family:'Space Grotesk','DM Sans',sans-serif}.btn{--bs-btn-font-weight:600;--bs-btn-border-radius:.65rem}.btn-primary{--bs-btn-bg:#006bff;--bs-btn-border-color:#168bff;--bs-btn-hover-bg:#0087e9;--bs-btn-hover-border-color:#00d4ff;--bs-btn-active-bg:#0056cf;box-shadow:0 8px 24px rgba(0,107,255,.22)}
+.dn-gradient-btn,.bg-gradient-to-r{background-image:linear-gradient(105deg,#006bff,#087eff 58%,#00bde9)}.dn-glass{background:linear-gradient(145deg,rgba(10,33,64,.88),rgba(6,23,45,.92));backdrop-filter:blur(14px);box-shadow:0 22px 70px rgba(0,0,0,.2)}
+header{backdrop-filter:blur(17px)}section[id]{scroll-margin-top:94px}.hero-grid,.hero-grid-bg{background-image:linear-gradient(rgba(76,147,224,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(76,147,224,.045) 1px,transparent 1px);background-size:56px 56px}.hero-orb{filter:blur(85px);pointer-events:none}.service-card,.glass-card,.solution-card,.tech-card{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}.service-card:hover,.glass-card:hover,.solution-card:hover,.tech-card:hover{transform:translateY(-4px);border-color:rgba(0,212,255,.5);box-shadow:0 18px 46px rgba(0,91,201,.16)}.qr-svg svg{width:100%;height:auto}
+@media(max-width:767.98px){html{scroll-padding-top:76px}section[id]{scroll-margin-top:76px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
